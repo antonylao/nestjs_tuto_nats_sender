@@ -1,0 +1,17 @@
+{
+  "moduleFileExtensions": [
+    "js",
+    "json",
+    "ts"
+  ],
+  "rootDir": ".",
+  "testEnvironment": "node",
+  "testRegex": ".e2e-spec.ts$",
+  "transform": {
+    "^.+\\.(t|j)s$": "ts-jest"
+  },
+  "moduleNameMapper": {
+    "@app/nats_sender/(.*)": "<rootDir>/../libs/nats_sender/src/$1",
+    "@app/nats_sender": "<rootDir>/../libs/nats_sender/src"
+  }
+}
